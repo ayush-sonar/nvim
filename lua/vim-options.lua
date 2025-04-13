@@ -6,6 +6,8 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 -- Enable mouse support
 vim.opt.mouse = "a"
+vim.opt.termguicolors = true
+
 
 -- Basic key mappings (quicker save/quit)
 vim.keymap.set("n", "<leader>w", ":w<CR>")  -- Save with space+w
