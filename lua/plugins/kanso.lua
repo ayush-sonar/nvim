@@ -1,5 +1,5 @@
-return {
-    "webhooked/kanso.nvim",
+ return {
+ --[[   "webhooked/kanso.nvim",
     lazy = false,
     priority = 1000,
     config = function()
@@ -30,4 +30,5 @@ return {
         })
         vim.cmd("colorscheme kanso")
     end
+ --]]
 }
